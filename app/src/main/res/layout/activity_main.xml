@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#848c94"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#a4b6c9"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textColor="#333330"
+        android:textSize="20sp"
+        android:background="#59bf11"
+        android:id="@+id/edtnme"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Name Here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#a4b6c9"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textColor="#333330"
+        android:textSize="20sp"
+        android:background="#59bf11"
+        android:id="@+id/edtmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Email Here"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#a4b6c9"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textColor="#333330"
+        android:textSize="20sp"
+        android:background="#59bf11"
+        android:id="@+id/edtphne"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#a4b6c9"
+        android:paddingLeft="16dp"
+        android:textStyle="bold|italic"
+        android:textColor="#333330"
+        android:textSize="20sp"
+        android:background="#59bf11"
+        android:id="@+id/edtpasswrd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold|italic"
+        android:textSize="50sp"
+        android:textColor="#313438"
+        android:background="#bcbeae"
+        android:id="@+id/btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
